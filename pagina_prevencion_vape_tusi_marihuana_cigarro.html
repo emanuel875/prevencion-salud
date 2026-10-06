@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decide por tu salud</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;color:#18202a;line-height:1.6}
+header{min-height:100vh;background:linear-gradient(135deg,#111827,#1f2937 55%,#0f766e);color:white;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px}
+.hero{max-width:900px}
+.badge{display:inline-block;background:#14b8a6;padding:8px 18px;border-radius:30px;font-weight:bold;margin-bottom:20px}
+h1{font-size:clamp(42px,8vw,78px);line-height:1.05;margin-bottom:20px}
+.hero p{font-size:20px;max-width:700px;margin:auto;color:#dbeafe}
+.btn{display:inline-block;margin-top:30px;padding:14px 25px;background:#14b8a6;color:white;text-decoration:none;border-radius:12px;font-weight:bold;transition:.25s}
+.btn:hover{transform:translateY(-3px);background:#0d9488}
+nav{position:sticky;top:0;z-index:10;background:#111827;padding:13px;text-align:center;box-shadow:0 3px 15px #0002}
+nav a{color:white;text-decoration:none;margin:0 12px;font-weight:bold;font-size:14px}
+section{max-width:1100px;margin:auto;padding:75px 20px}
+.title{text-align:center;margin-bottom:40px}
+.title h2{font-size:38px;color:#111827}
+.title p{color:#64748b;margin-top:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.card{background:white;border-radius:20px;padding:28px;box-shadow:0 8px 25px #0f172a12;border-top:5px solid #14b8a6;transition:.25s}
+.card:hover{transform:translateY(-6px)}
+.icon{font-size:42px;margin-bottom:10px}
+.card h3{font-size:25px;margin-bottom:10px}
+.card p{color:#475569}
+.warning{background:#fff7ed;border-left:6px solid #f97316;border-radius:14px;padding:25px;margin-top:35px}
+.warning strong{color:#c2410c}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.info-box{background:#111827;color:white;border-radius:20px;padding:30px}
+.info-box h3{color:#5eead4;margin-bottom:12px;font-size:25px}
+ul{padding-left:22px}
+li{margin:8px 0}
+.sources{background:#e2e8f0;border-radius:20px;padding:30px}
+footer{text-align:center;background:#111827;color:#cbd5e1;padding:35px 20px}
+@media(max-width:700px){.info{grid-template-columns:1fr}nav a{margin:0 5px;font-size:12px}section{padding:55px 18px}}
+</style>
+</head>
+<body>
+
+<header id="inicio">
+  <div class="hero">
+    <span class="badge">INFORMACIÓN Y PREVENCIÓN</span>
+    <h1>Decide por tu salud</h1>
+    <p>Conoce los riesgos del vape, el tusi, la marihuana y el cigarro. Informarte también es una forma de cuidarte.</p>
+    <a class="btn" href="#sustancias">Conocer más ↓</a>
+  </div>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#sustancias">Sustancias</a>
+  <a href="#riesgos">Riesgos</a>
+  <a href="#prevencion">Prevención</a>
+  <a href="#fuentes">Fuentes</a>
+</nav>
+
+<section id="sustancias">
+  <div class="title">
+    <h2>Cuatro sustancias que debes conocer</h2>
+    <p>Sus efectos y composición pueden variar, pero ninguna está libre de riesgos.</p>
+  </div>
+  <div class="cards">
+    <article class="card">
+      <div class="icon">💨</div>
+      <h3>Vape</h3>
+      <p>Los cigarrillos electrónicos pueden contener nicotina y otras sustancias químicas. El aerosol puede irritar y afectar el sistema respiratorio y generar dependencia a la nicotina.</p>
+    </article>
+    <article class="card">
+      <div class="icon">💊</div>
+      <h3>Tusi</h3>
+      <p>El llamado “tusi” o “cocaína rosada” no tiene una composición fija. Puede contener diferentes drogas y sustancias, por lo que sus efectos y riesgos son impredecibles.</p>
+    </article>
+    <article class="card">
+      <div class="icon">🌿</div>
+      <h3>Marihuana</h3>
+      <p>El cannabis contiene compuestos como el THC, que puede alterar la memoria, la atención, la coordinación y la percepción. Su consumo también puede producir dependencia.</p>
+    </article>
+    <article class="card">
+      <div class="icon">🚬</div>
+      <h3>Cigarro</h3>
+      <p>El humo del tabaco contiene miles de sustancias químicas. La nicotina produce dependencia y fumar aumenta el riesgo de enfermedades respiratorias, cardiovasculares y cáncer.</p>
+    </article>
+  </div>
+</section>
+
+<section id="riesgos">
+  <div class="title">
+    <h2>¿Qué riesgos existen?</h2>
+    <p>El consumo puede afectar diferentes partes del organismo.</p>
+  </div>
+  <div class="info">
+    <div class="info-box">
+      <h3>🫁 Cuerpo</h3>
+      <ul>
+        <li>Problemas y enfermedades respiratorias.</li>
+        <li>Daño al sistema cardiovascular.</li>
+        <li>Alteraciones de la coordinación y los reflejos.</li>
+        <li>Mayor riesgo de dependencia.</li>
+      </ul>
+    </div>
+    <div class="info-box">
+      <h3>🧠 Mente</h3>
+      <ul>
+        <li>Alteraciones de la atención y la memoria.</li>
+        <li>Cambios en la percepción y el estado de ánimo.</li>
+        <li>Ansiedad u otros efectos psicológicos en algunas personas.</li>
+        <li>El riesgo puede aumentar con el consumo frecuente o de varias sustancias.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="warning">
+    <strong>Importante:</strong> mezclar sustancias puede aumentar los riesgos. En el caso del tusi, además, es especialmente difícil saber qué contiene realmente una muestra.
+  </div>
+</section>
+
+<section id="prevencion">
+  <div class="title">
+    <h2>¿Cómo prevenir el consumo?</h2>
+    <p>Tomar decisiones informadas puede ayudarte a proteger tu salud.</p>
+  </div>
+  <div class="cards">
+    <div class="card"><div class="icon">📚</div><h3>Infórmate</h3><p>Busca información en fuentes confiables y no te dejes llevar por mitos o publicaciones de redes sociales.</p></div>
+    <div class="card"><div class="icon">🗣️</div><h3>Habla con alguien</h3><p>Si tienes dudas o presión para consumir, conversa con un familiar, profesor, orientador o profesional de salud.</p></div>
+    <div class="card"><div class="icon">🤝</div><h3>Apoya a otros</h3><p>Evita juzgar y anima a tus amigos a pedir ayuda cuando la necesiten.</p></div>
+    <div class="card"><div class="icon">❤️</div><h3>Cuida tu salud</h3><p>Practica actividades saludables como deporte, descanso adecuado, música y tiempo con personas de confianza.</p></div>
+  </div>
+</section>
+
+<section id="fuentes">
+  <div class="title">
+    <h2>Fuentes de información</h2>
+  </div>
+  <div class="sources">
+    <ul>
+      <li>Organización Mundial de la Salud (OMS)</li>
+      <li>Organización Panamericana de la Salud (OPS)</li>
+      <li>Ministerio de Salud del Perú (MINSA)</li>
+      <li>Centros para el Control y la Prevención de Enfermedades (CDC)</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Decide por tu salud</strong></p>
+  <p>Información educativa para promover la prevención y el cuidado de la salud.</p>
+</footer>
+</body>
+</html>
